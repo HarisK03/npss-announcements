@@ -1,0 +1,485 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	background-color: #F2F0EB;
+	margin-bottom: 0px;
+}
+
+#title {
+	background-color: #4D4B50;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 200;
+	color: #F2F0EB;
+	width: 100%;
+	line-height: 125px;
+	text-align: center;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: #F2F0EB;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200px;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #7e619e;
+}
+
+#t-portal {
+	font-family: 'Montserrat', sans-serif;
+	color: #F2F0EB;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding-top: 10px;
+}
+
+@-webkit-keyframes fadein {
+	/* Safari and Chrome */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#t-portal h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 160px;
+	padding-bottom: 0px;
+	font-size: 75px;
+	animation: fadein 4s;
+	-webkit-animation: fadein 4s;
+	text-align: center;
+}
+
+#t-portal h3 {
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	animation: fadein 4s;
+	-webkit-animation: fadein 4s;
+	text-align: center;
+}
+
+#t-portal h4 {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 158px;
+	font-weight: 200;
+	animation: fadein 4s;
+	-webkit-animation: fadein 4s;
+	text-align: center;
+}
+
+#button-create {
+	width: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	align-items: center;
+	padding-bottom: 20px;
+	line-height: 0px;
+}
+
+#clubs {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#clubs h1 {
+	padding-top: 50px;
+	margin-top: 0px;
+	line-height: 0px;
+}
+
+#genders {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+}
+
+#genders h1 {
+	padding-top: 30px;
+	margin-top: 0px;
+	line-height: 0px;
+}
+
+#grades {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+}
+
+#grades h1 {
+	padding-top: 30px;
+	margin-top: 0px;
+	line-height: 0px;
+}
+
+#writemessage {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 75px;
+}
+
+#submit {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#footer {
+	color: #F2F0EB;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	background-color: #4D4B50;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#top h2 {
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+	padding-bottom: 0px;
+}
+
+#copyright {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#write {
+	margin-top: 0px;
+	line-height: 0px;
+}
+
+#s-portal {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#s-join {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#enrolled {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-input-placeholder {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	padding-top: 40px;
+}
+
+textarea {
+	height: 100px;
+	width: 500px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#studentClub {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 0px;
+}
+
+#studentClub h1 {
+	padding-top: 30px;
+	margin-top: 0px;
+	line-height: 0px;
+}
+
+#studentGrade {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+}
+
+#studentGrade h1 {
+	padding-top: 30px;
+	margin-top: 0px;
+	line-height: 0px;
+}
+
+#studentGender {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+}
+
+#studentGender h1 {
+	padding-top: 30px;
+	margin-top: 0px;
+	line-height: 0px;
+}
+
+#save {
+	padding-top: 25px;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+#teacherName {
+	font-weight: 900;
+}
+
+#addInput {
+	margin-top: 10px;
+}
+
+#noAnnouncements {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#announcementTitle {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.submit,
+.saveAll {
+	box-shadow: 0px 0px 3px 0px #000000;
+	background-color: #80619e;
+	border-radius: 28px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
+}
+
+.submit:hover,
+.saveAll:hover {
+	background-color: #000111;
+}
+
+.submit:active,
+.saveAll:active {
+	position: relative;
+	top: 1px;
+}
+
+#submit {
+	padding-bottom: 30px;
+}
+
+#myVideo {
+	width: 100%;
+}
+
+#club,
+#gender,
+#grade,
+#saveClub,
+#saveGender,
+#saveGrade {
+	width: 150px;
+	padding: 5px 35px 5px 5px;
+	font-size: 16px;
+	border: 1px solid #CCC;
+	height: 34px;
+	-webkit-appearance: none;
+	background: url("../assets/arrow.png") 96% / 15% no-repeat #EEE;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+}
+
+.addButton {
+	background-color: #80619e;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 14px;
+	padding: 10px 10px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #2f6627;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.addButton:hover {
+	background-color: #000111;
+}
+
+.addButton:active {
+	position: relative;
+	top: 1px;
+}
+
+.push {
+	padding-top: 7px;
+}
+
+#addInput {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#studentClub {
+	padding-top: 17px;
+}
+
+.headerStyle {
+	font-weight: bold;
+}
+
+#emailButton {
+	text-align: center;
+}
+
+.emailButton {
+	background-color: #80619e;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 14px;
+	padding: 10px 10px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #2f6627;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.emailButton:hover {
+	background-color: #000111;
+}
+
+.emailButton:active {
+	position: relative;
+	top: 1px;
+}
+
+#teacherLogin {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.accessPortal {
+	background-color: #80619e;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 14px;
+	padding: 10px 10px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0x #2f6627;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.accessPortal:hover {
+	background-color: #000111;
+}
+
+.accessPortal:active {
+	position: relative;
+	top: 1px;
+}
+
+.pushAccess {
+	padding-bottom: 30px;
+}
+
+#teacherHeading {
+	padding-top: 67px;
+}
+
+#studentHeading {
+	padding-top: 90px;
+}
+
+.pushAccess {
+	padding-top: 12px;
+	padding-bottom: 93px;
+}
+
+#loginMessage {
+	margin-bottom: auto;
+	padding-bottom: 0px;
+}
+
+table {
+	font-family: 'Montserrat', sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+	margin: auto;
+	table-layout: fixed;
+}
+
+table td,
+table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table tr:hover {
+	background-color: #ddd;
+}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #3d3d3d;
+	color: white;
+}
+
+td {
+	text-align: center;
+}
