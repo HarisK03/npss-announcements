@@ -31,6 +31,8 @@ login.html
 ==========
 This is where the user can select whether they want to go to the teacher or student portal. If they wish to go to the teacher portal, they need the access code (625415) to prevent unauthorized users from posting announcements. If an individual wishes to reach the student portal, they can click the button and they will be redirected to the portal with no code or login.
 
+Closing Remarks
+===============
 Hopefully your time using this application is a pleasant one. If you have any questions or bugs to report, please contact me at 625415@pdsb.net. 
 
 Thanks for using my application!
