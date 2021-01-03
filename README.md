@@ -12,7 +12,7 @@ Date Created: November 2019
 
 ## About The Project ##
 
-This application was designed for teachers and students to transmit school announcements. The teachers are able to post announcements with various prerequisites that eligible students are able to view. 
+This application was designed for teachers and students to transmit school announcements. The teachers are able to post announcements with various prerequisites that eligible students are able to view. You are able to view the final project [here](https://npss-announcements.hariskamal.repl.co/login.html/ "NPSS Announcements").
 
 ## Getting Started ##
 
