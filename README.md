@@ -22,13 +22,21 @@ There are three distinct portals that are used for this program.
 
 This is where both students and teachers will navigate to in order to reach their appropriate portal. The code to access the teacher portal is `625415`.
 
+![alt text](https://i.imgur.com/jqSbMh1.png) 
+
 ### Teachers Portal ###
 
 Teachers are able to create announcements as well as view their previously posted announcements. By default, the announcement will be transmitted to all students, regardless of selected settings on the student's behalf. However, teachers are able to select the desired club, gender, and grade that they wish their announcement to be seen by. If a club is not already present within the provided list, the teacher is able to create a club.
 
+![alt text](https://i.imgur.com/VcEbQ1v.png) 
+
 ### Students Portal ###
 
 Students are recommended to go to their settings and select their clubs, gender, and grade. Then they will be able to view all announcements that pertain to them based upon their selected settings.
+
+![alt text](https://i.imgur.com/SR3fFoK.png) 
+
+![alt text](https://i.imgur.com/srTia7X.png)
 
 ## Roadmap ##
 
